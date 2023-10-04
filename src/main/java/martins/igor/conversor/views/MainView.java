@@ -143,6 +143,8 @@ public class MainView extends VerticalLayout {
                             break;
                     }
 
+                    break;
+
                 case "Metro":
                     switch(outputUnidade) {
                         case "Quilômetro":
@@ -177,6 +179,8 @@ public class MainView extends VerticalLayout {
                             output.setValue(inputValue);
                             break;
                     }
+
+                    break;
 
                 case "Centímetro":
                     switch(outputUnidade) {
@@ -213,6 +217,8 @@ public class MainView extends VerticalLayout {
                             break;
                     }
 
+                    break;
+
                 case "Milímetro":
                     switch(outputUnidade) {
                         case "Quilômetro":
@@ -247,6 +253,8 @@ public class MainView extends VerticalLayout {
                             output.setValue(inputValue);
                             break;
                     }
+
+                    break;
 
                 case "Milha":
                     switch(outputUnidade) {
@@ -283,6 +291,8 @@ public class MainView extends VerticalLayout {
                             break;
                     }
 
+                    break;
+
                 case "Jarda":
                     switch(outputUnidade) {
                         case "Quilômetro":
@@ -317,6 +327,8 @@ public class MainView extends VerticalLayout {
                             output.setValue(inputValue);
                             break;
                     }
+
+                    break;
 
                 case "Pé":
                     switch(outputUnidade) {
@@ -353,6 +365,8 @@ public class MainView extends VerticalLayout {
                             break;
                     }
 
+                    break;
+
                 case "Polegada":
                     switch(outputUnidade) {
                         case "Quilômetro":
@@ -387,6 +401,8 @@ public class MainView extends VerticalLayout {
                             output.setValue(inputValue);
                             break;
                     }
+
+                    break;
             }
         });
         conversorButton.addClickShortcut(Key.ENTER);
